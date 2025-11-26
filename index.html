@@ -23,6 +23,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- ========== Start NAVBAR Section ========== -->
@@ -85,11 +86,12 @@
               <a href="services.html" class="btn btn-white">Learn with us</a>
             </div>
           </div>
-          <div class="section-hero--image">
+          <div class="section-hero--image"  data-aos="fade-up">
             <figure>
               <img
                 src="./images/main-hero1.webp"
                 alt="a 3d character doing coding stuff "
+                
               />
             </figure>
           </div>
@@ -133,7 +135,7 @@
         </p>
       </div>
       <div class="container grid grid-three--cols">
-        <div class="about-div">
+        <div class="about-div" data-aos="fade-up"  data-aos-delay="300">
           <div class="icon">
             <img src="./images/research.png" alt="" />
           </div>
@@ -146,7 +148,7 @@
         </div>
 
         <!-- 2222 -->
-        <div class="about-div">
+        <div class="about-div" data-aos="fade-up"  data-aos-delay="600">
           <div class="icon">
             <img src="./images/design.png" alt="" />
           </div>
@@ -157,7 +159,7 @@
           </p>
         </div>
         <!-- 3333 -->
-        <div class="about-div">
+        <div class="about-div" data-aos="fade-up"  data-aos-delay="900">
           <div class="icon">
             <img src="./images/coding.png" alt="" />
           </div>
@@ -416,5 +418,9 @@
       </div>
     </footer>
     <!-- ========== End Section footer ========== -->
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
